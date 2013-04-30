@@ -1,0 +1,11 @@
+public class Dicemain {
+  public static void main (String [] args)
+  {
+  	
+  	for (int counter =1; counter <=20; counter ++){
+  		Dice RollDice1 = new Dice();
+  		System.out.printf("%d ", RollDice1.RollDice(2));
+  	
+  }
+  }}
+
